@@ -1,0 +1,64 @@
+@import url("https://use.typekit.net/fuh7edq.css");
+
+
+.signIn {
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    width: 50vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: inherit;
+  }
+
+  .info {
+    margin: 64px;
+    
+    h1 {
+      font-size: 36px;
+      font-family: "Poppins" sans-serif;
+      text-align: center;
+      margin: 0px;
+    }
+
+    p {
+      text-align: center;
+      margin: 0px 0px 64px 0px ;
+    }
+  }
+
+  .form {
+      width: 360px;
+      margin: 0 auto;
+      display: block;
+
+      label, input {
+        display: block;     
+      }
+      input {
+        padding: 8px 16px;
+        border-radius: 4px;
+        margin: 8px 0px;
+        border: solid 1px #E6E6E6;
+        width: 100%;
+        background-color: #f9f9f9;
+        &:active {
+          border: 1px solid #fff;
+        }
+      }
+      button {
+        border: none;
+        padding: 16px;
+        margin-top: 16px;
+        width: 396px;
+        background-color: #F54A48;
+        color: #fff;
+      
+
+      }
+    
+  }
+
+}
